@@ -1,21 +1,21 @@
-# Mr_URL
+# MrURL
 Mr.URL fetches known URLs for a given domain from Wayback Machine, Commoncrawl and OTX Alienvault. It also finds old versions of any given URL using WaybackMachine. Inspired by [GAU](https://github.com/lc/gau) and [Waybackurls](https://github.com/tomnomnom/waybackurls).
 
 ## Installation:
 ```
-$ git clone https://github.com/Sachin-v3rma/Mr_URL
-$ cd Mr_URL && pip install -r requirements.txt
-$ python3 Mr_URL.py -h
+$ git clone https://github.com/Sachin-v3rma/MrURL
+$ cd MrURL && pip install -r requirements.txt
+$ python3 MrURL.py -h
 ```
 
 ## Usage:
 Examples:
 
 ```bash
-$ echo example.com | python3 Mr_URL.py
-$ echo example.com | python3 Mr_URL.py -subs
-$ cat live_subs.txt | python3 Mr_URL.py -q -t5
-$ cat js_links.txt | python3 Mr_URL.py -v
+$ echo example.com | python3 MrURL.py
+$ echo example.com | python3 MrURL.py -subs
+$ cat live_subs.txt | python3 MrURL.py -q -t5
+$ cat js_links.txt | python3 MrURL.py -v
 ```
 
 
